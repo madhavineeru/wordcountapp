@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wordCount-app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+}
+.text{
+    height: 220px;
+    width: 330px;
+    background-image: linear-gradient(to right, #44a08d,#093637);
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "roboto";
+    padding: 10px;
+}
+.count{
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 700;
+
+}
+.countVal{
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 700;
+    color: #F25A35;
+}
